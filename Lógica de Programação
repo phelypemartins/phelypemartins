@@ -1,0 +1,70 @@
+    inteiro op,dias,viagens,somapjt,somaadtr
+		
+
+		escreva("Qual tipo de serviço? \n")
+		escreva("1 - Projeto\n")
+		escreva("2 - Auditoria\n")
+		leia (op)
+		escreva("Quantidade de dias trabalhados\n")
+		leia(dias)
+		escreva("Quantidade de viagens realizadas\n")
+		leia(viagens)
+
+		somapjt = dias*200 + viagens*1000
+		somaadtr = dias*100 + viagens*1500
+
+		se (op <= 1)
+		escreva(somapjt)
+		senao se (op <= 2)
+		escreva(somaadtr)
+		senao
+		escreva("Opção Inválida")
+
+--------------------------------------------------------------
+
+    inteiro op
+		
+
+		escreva("Menu Principal\n")
+		escreva("1 - Fim\n")
+		escreva("2 - Cadastro\n")
+		escreva("3 - Consulta\n")
+
+		escreva("Digite uma opção válida: ")
+
+		leia(op)
+
+		se (op <= 1)
+		escreva("1 - Fim")
+		senao se (op <= 2)
+		escreva("2 - cadastro")
+		senao se (op <= 3)
+		escreva("3 - Consulta")
+		senao
+		escreva("Opção inválida")
+
+-----------------------------------------------------------
+
+    inteiro idade
+
+		escreva("Qual a idade? ")
+		leia(idade)
+
+		Infantil A = 5-7
+		Infantil B = 8-10
+		Juvenil A = 11-13
+		Juvenil B = 14-17
+		Maiores de 18 = >18
+
+		se (idade < 5)
+		escreva("Não há categoria")
+		senao se (idade <= 7)
+		escreva("Categoria A")
+		senao se (idade <= 10)
+		escreva("Infatil B")
+		senao se (idade <= 13)
+		escreva("Juvenil A")
+		senao se(idade <= 17)
+		escreva("Juvenil B")
+		senao se(idade >= 18)
+		escreva("Maiores de 18")
