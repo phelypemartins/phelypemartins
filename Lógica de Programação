@@ -1,4 +1,4 @@
-    inteiro op,dias,viagens,somapjt,somaadtr
+    		inteiro op,dias,viagens,somapjt,somaadtr
 		
 
 		escreva("Qual tipo de serviço? \n")
@@ -22,7 +22,7 @@
 
 --------------------------------------------------------------
 
-    inteiro op
+    		inteiro op
 		
 
 		escreva("Menu Principal\n")
@@ -45,7 +45,7 @@
 
 -----------------------------------------------------------
 
-    inteiro idade
+    		inteiro idade
 
 		escreva("Qual a idade? ")
 		leia(idade)
@@ -68,3 +68,25 @@
 		escreva("Juvenil B")
 		senao se(idade >= 18)
 		escreva("Maiores de 18")
+
+---------------------------------------------------------
+
+		real peso
+
+		escreva("Digite o peso do atleta: \n")
+		leia(peso)
+
+		se (peso <= 57)
+		escreva("Peso Pena")
+		senao se(peso <= 63)
+		escreva("Peso leve")
+		senao se(peso <= 69)
+		escreva("Peso Meio-médio")
+		senao se(peso <= 75)
+		escreva("Peso médio")
+		senao se(peso <= 81)
+		escreva("Peso Meio-pesado")
+		senao se(peso <= 91)
+		escreva("Peso Pesado")
+		senao
+		escreva("Não encontrado em nenhuma categoria")
