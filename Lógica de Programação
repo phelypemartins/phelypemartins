@@ -90,3 +90,17 @@
 		escreva("Peso Pesado")
 		senao
 		escreva("Não encontrado em nenhuma categoria")
+
+------------------------------------------------------------
+
+		inteiro A,B,temp
+
+		leia(A)
+		leia(B)
+
+		temp = A
+		A=B
+		B = temp
+
+		escreva("Valor de A: ",A)
+		escreva("Valor de B: ",B)
