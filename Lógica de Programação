@@ -144,3 +144,32 @@ inteiro eleitores,votosbrancos,votosnulos,votosvalidos
     escreva("A porcentagem de votos brancos é: ",porcentagem_brancos,"% \n")
     escreva("A porcentagem de votos nulos é: ",porcentagem_nulos,"% \n")
     escreva("A porcentagem de votos validos é: ",porcentagem_validos,"% \n")
+
+
+-------------------------------------------------------------------
+
+real salario,percentual_reajuste,ajuste
+
+   escreva("Qual o salário do colaborador? \n")
+   leia(salario)
+
+   ajuste = 0.30
+
+   percentual_reajuste = salario + (salario*0.3)
+
+   escreva("O valor do novo salario é de: ",percentual_reajuste)
+
+-------------------------------------------------------------------
+
+
+real valor_final,custo_fabrica,impostos,distribuidor
+
+   escreva("Digite o valor de fábrica do carro: \n")
+   leia(custo_fabrica)
+
+   distribuidor = 0.28
+   impostos = 0.45
+
+   valor_final = custo_fabrica+(custo_fabrica*distribuidor*impostos)
+
+   escreva("O valor final do carro é de: ",valor_final) 
