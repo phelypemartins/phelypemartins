@@ -104,3 +104,18 @@
 
 		escreva("Valor de A: ",A)
 		escreva("Valor de B: ",B)
+
+
+---------------------------------------------------------------
+
+inteiro idade, peso
+
+    escreva("Digite sua idade:")
+    	leia(idade)
+    escreva("Digite seu peso:")
+    	leia(peso)
+
+    se (idade > 18 e peso > 65) 
+    	escreva("Você está apto para a prova")
+    senao
+    	escreva("Você não está apto para a prova")
