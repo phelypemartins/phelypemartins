@@ -119,3 +119,28 @@ inteiro idade, peso
     	escreva("Você está apto para a prova")
     senao
     	escreva("Você não está apto para a prova")
+---------------------------------------------------------------
+
+inteiro eleitores,votosbrancos,votosnulos,votosvalidos
+    real porcentagem_brancos,porcentagem_nulos,porcentagem_validos
+
+    escreva("Digite o número de eleitores: \n")
+    leia(eleitores)
+
+    escreva("Digite o número de votos brancos: \n")
+    leia(votosbrancos)
+
+    escreva("Digite o número de  votos nulos: \n")
+    leia(votosnulos)
+
+    escreva("Digite o número de votos válidos: \n")
+    leia(votosvalidos)
+
+
+    porcentagem_brancos = ( votosbrancos / eleitores) *100
+    porcentagem_nulos = ( votosnulos / eleitores) *100
+    porcentagem_validos = ( votosvalidos / eleitores) *100
+
+    escreva("A porcentagem de votos brancos é: ",porcentagem_brancos,"% \n")
+    escreva("A porcentagem de votos nulos é: ",porcentagem_nulos,"% \n")
+    escreva("A porcentagem de votos validos é: ",porcentagem_validos,"% \n")
