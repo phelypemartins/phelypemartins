@@ -198,3 +198,30 @@ real salario_fixo,comissao_fixa,comissao_total,comissao_por_venda,valor_vendas,q
     
     
     escreva("O salário final é de: ",salario_final)
+
+----------------------------------------------------------------------
+
+inteiro qtdAcai, qtdTapioca, desconto = 0
+    real valorAcai = 12.00,valorTapioca = 10, total
+    caracter pgtoPIX = 'N'
+
+    escreva("Qual a quantidade de açai? \n")
+    leia(qtdAcai)
+    escreva("Qual a quantidade de tapioca? \n")
+    leia(qtdTapioca)
+
+    total = (qtdAcai*valorAcai)+(qtdTapioca*valorTapioca)
+
+    se (total >= 100){
+      escreva("Deseja pagar no PIX? S para Sim ou N para Não \n")
+      leia(pgtoPIX)
+      se (pgtoPIX == 'S'){
+        desconto = 15
+      escreva("Total: \n",total, " - [15%] é: ", total*0.85)
+      }senao{
+        desconto = 10
+        escreva("Total: \n",total, " - [10%] é: ",total*0.9)
+      }
+      }
+    senao{
+      escreva("Valor total: \n",total)
