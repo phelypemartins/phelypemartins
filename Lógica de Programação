@@ -173,3 +173,28 @@ real valor_final,custo_fabrica,impostos,distribuidor
    valor_final = custo_fabrica+(custo_fabrica*distribuidor*impostos)
 
    escreva("O valor final do carro é de: ",valor_final) 
+
+----------------------------------------------------------------
+
+real salario_fixo,comissao_fixa,comissao_total,comissao_por_venda,valor_vendas,qtd_carros,salario_final
+
+
+    escreva("Quantos carros foram vendidos? \n")
+    leia(qtd_carros)
+    escreva("Qual valor das vendas: \n")
+    leia(valor_vendas)
+    escreva("Digite o salário fixo: \n")
+    leia(salario_fixo)
+    escreva("Qual a comissão por carro vendido? Em reais \n")
+    leia(comissao_fixa)
+
+
+    
+    
+
+    comissao_total = qtd_carros*comissao_fixa
+    comissao_por_venda = valor_vendas*0.05
+    salario_final = salario_fixo + comissao_total + comissao_por_venda
+    
+    
+    escreva("O salário final é de: ",salario_final)
