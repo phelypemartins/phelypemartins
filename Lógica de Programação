@@ -225,3 +225,47 @@ inteiro qtdAcai, qtdTapioca, desconto = 0
       }
     senao{
       escreva("Valor total: \n",total)
+
+-----------------------------------------------------------------------
+
+Var
+   // Seção de Declarações das variáveis
+   d1,d2,result: real
+   op, resp: caracter
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   resp <- "Sim"
+   
+   enquanto (resp="Sim") faca
+
+   escreval("D1: ")
+   leia(d1)
+   escreval("D2: ")
+   leia(d2)
+   escreval("Op? ")
+   leia(op)
+
+   se (op = "+") entao
+      result:= d1+d2
+   senao
+      se (op = "-") entao
+         result:= d1-d2
+      senao
+         se (op = "*") entao
+            result:= d1*d2
+         senao
+            result:= d1/d2
+
+         fimse
+      fimse
+   fimse
+
+   escreval(result)
+   escreval("Deseja continuar? Sim ou Não.")
+   leia(resp)
+   
+   limpatela
+   
+   fimenquanto
