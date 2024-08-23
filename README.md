@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [Data Analisys](https://github.com/phelypemartins/analise-de-dados-com-python)
 
-- 🌱 I’m currently learning **Python, SQL, Power BI, LinkedIn, Análise de Sistemas, Administração**
+- 🌱 I’m currently learning **Python, SQL, Power BI, Análise de Sistemas, Administração**
 
 - 👨‍💻 All of my projects are available at [https://github.com/phelypemartins](https://github.com/phelypemartins)
 
